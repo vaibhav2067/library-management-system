@@ -31,6 +31,7 @@
 
 h1{
     color: rgb(223, 223, 223);
+	padding-bottom: 12px;
 }
 
 form {
@@ -70,6 +71,7 @@ button {
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
+	margin-bottom: 3rem;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
@@ -84,6 +86,29 @@ button:focus {
 }
 
 button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+.social-container{
+	padding: 1rem 0;
+}
+
+.icon_img{
+	width: 3rem;
+	padding: 0 .5rem;
+	transition: transform 80ms ease-in;
+}
+
+.icon_img:active{
+	transform: scale(0.95);
+}
+
+.icon_img:focus {
+	outline: none;
+}
+
+.icon_img.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
